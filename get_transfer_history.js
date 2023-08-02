@@ -9,9 +9,9 @@ const config = {
 };
 const alchemy = new Alchemy(config);
 
-// Main function to fetch transfer history of an NFT
+// Main function to fetch transfer history of a NFT
 const main = async () => {
-  // Contract address of the NFT
+  // Contract address of a NFT (replace with your own)
   const address = ["0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"];
 
   // Get all transactions for the NFT address specified above and store in response variable
@@ -48,11 +48,7 @@ const main = async () => {
   });
 };
 
-/**
- * Function to run the main function and handle any errors.
- * Executes the main function, exits the process with a success code if successful,
- * logs the error to the console and exits with an error code if an error occurs.
- */
+// Function to run the main function and handle any errors.
 const runMain = async () => {
   try {
     await main();
