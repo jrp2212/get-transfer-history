@@ -34,7 +34,7 @@ Follow these steps to run the script:
 6. Install the Alchemy SDK and the `dotenv` package running the following commands: `yarn add alchemy-sdk dotenv`
 
 
-7. Run the script in the terminal: `node get_asset_transfer.js`
+7. Run the script in the terminal: `node get_transfer_history.js`
 
 
 By following these steps, the script will get the transfer history of an NFT, printing out the desired fields to the console.
