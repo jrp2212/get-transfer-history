@@ -25,7 +25,7 @@ Follow these steps to run the script:
 
 3. Open the `sample.env` file and update the value for the API Key to your own value and rename file to `.env`. If you don't have an Alchemy API Key yet you can [create one for free here](https://alchemy.com/?a=starter-code).
 
-4. Open `get_asset_transfer.js` and update the contract address found within the main function to reflect the NFT that you will be querying. 
+4. Open `get_transfer_history.js` and update the contract address found within the main function to reflect the NFT that you will be querying. 
 
 
 5. Initialize the project by running the following command: `yarn init --yes`
