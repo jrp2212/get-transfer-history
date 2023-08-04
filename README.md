@@ -28,8 +28,8 @@ Follow these steps to run the script:
 4. Open `getTransferHistory.js` and update the contract address found within the main function to reflect the NFT that you will be querying. 
 
 5. Install the Alchemy SDK and the dotenv package running either of the following commands:
-  * yarn add alchemy-sdk dotenv
-  * npm i alchemy-sdk dotenv
+   * yarn add alchemy-sdk dotenv
+   * npm i alchemy-sdk dotenv
 
 7. Run the script in the terminal: `node getTransferHistory.js`
 
