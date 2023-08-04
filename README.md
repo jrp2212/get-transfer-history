@@ -25,16 +25,13 @@ Follow these steps to run the script:
 
 3. Open the `sample.env` file and update the value for the API Key to your own value and rename file to `.env`. If you don't have an Alchemy API Key yet you can [create one for free here](https://alchemy.com/?a=starter-code).
 
-4. Open `get_transfer_history.js` and update the contract address found within the main function to reflect the NFT that you will be querying. 
+4. Open `getTransferHistory.js` and update the contract address found within the main function to reflect the NFT that you will be querying. 
 
+5. Install the Alchemy SDK and the dotenv package running either of the following commands:
+* yarn add alchemy-sdk dotenv
+* npm i alchemy-sdk dotenv
 
-5. Initialize the project by running the following command: `yarn init --yes`
-
-
-6. Install the Alchemy SDK and the `dotenv` package running the following commands: `yarn add alchemy-sdk dotenv`
-
-
-7. Run the script in the terminal: `node get_transfer_history.js`
+7. Run the script in the terminal: `node getTransferHistory.js`
 
 
 By following these steps, the script will get the transfer history of an NFT, printing out the desired fields to the console.
